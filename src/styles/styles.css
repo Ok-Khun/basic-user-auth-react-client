@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    padding: 15px;
+}
+
+/* Temp */
+nav {
+    border-bottom: solid 1px black;
+}
+
+.auth-form{
+    width: 400px;
+}
