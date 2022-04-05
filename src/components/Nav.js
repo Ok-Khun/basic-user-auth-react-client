@@ -35,7 +35,12 @@ const Nav = () => {
             </li>
           </>
         ) : (
-          <li onClick={signOut}>Sign Out</li>
+          <>
+            <li>
+              <Link to="/protected-route">Protected</Link>
+            </li>
+            <li onClick={signOut}>Sign Out</li>
+          </>
         )}
       </ul>
     </nav>
